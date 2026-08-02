@@ -6,7 +6,7 @@
 
 **STATUS: COMPLETE** · **4 CAD RELEASES** · **CC BY 4.0**
 
-[Download the CAD](#cad-downloads) · [Read the design story](#design-story) · [View the license](LICENSE)
+[Watch the videos](#videos) · [Download the CAD](#cad-downloads) · [Read the design story](#design-story) · [View the license](LICENSE)
 
 <img src="assets/images/chassis-built.webp" alt="Completed Simple Swerve chassis" width="900">
 
@@ -22,6 +22,15 @@ Swerve drive combines omnidirectional movement with the traction of conventional
 
 > [!IMPORTANT]
 > **This project is complete.** The complete CAD exports, project explanation, and development images are stored in this repository. No external project page or CAD host is required.
+
+## Videos
+
+These two demonstrations document the early Simple Swerve prototype and the later FTC-sized version. Click either locally hosted preview to watch the full video on YouTube.
+
+| First prototype — March 4, 2024 | FTC-sized version — March 20, 2024 |
+| :--: | :--: |
+| [![Simple Swerve first prototype video](assets/images/video-march-04.webp)](https://www.youtube.com/watch?v=7rm5lNFZ9ew) | [![FTC-sized Simple Swerve video](assets/images/video-march-20.webp)](https://www.youtube.com/watch?v=EeESId9w0uI) |
+| **[Watch “FTC Legal Differential Swerve — Simple Swerve”](https://www.youtube.com/watch?v=7rm5lNFZ9ew)** | **[Watch “FTC Legal Differential Swerve — Simple Swerve”](https://www.youtube.com/watch?v=EeESId9w0uI)** |
 
 ## CAD downloads
 
