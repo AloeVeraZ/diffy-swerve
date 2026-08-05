@@ -11,7 +11,7 @@ This directory contains the original exported Simple Swerve release packages. Ea
 
 ## Large-file storage
 
-The archives are tracked with [Git LFS](https://git-lfs.com/) because the chassis release exceeds GitHub's normal per-file size limit. Contributors cloning this repository should install Git LFS before cloning or run `git lfs pull` afterward to retrieve the full archives.
+The archives are tracked with [Git LFS](https://git-lfs.com/) because the chassis release exceeds GitHub's normal per file size limit. Contributors cloning this repository should install Git LFS before cloning or run `git lfs pull` afterward to retrieve the full archives.
 
 ## Verifying a download
 
