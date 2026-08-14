@@ -131,8 +131,6 @@ The prototype was inspired by the differential swerve work of **FTC Team 11115, 
 
 <div align="center">
 
-Designed by **Angelo James**
-
 *This independent project is not endorsed by FIRST® or by the component manufacturers referenced above.*
 
 </div>
