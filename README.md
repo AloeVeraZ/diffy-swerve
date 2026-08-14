@@ -4,13 +4,18 @@
 
 ### A compact differential swerve platform for FIRST Tech Challenge robots
 
-**STATUS: COMPLETE** · **4 CAD RELEASES** · **CC BY 4.0**
+[![Status](https://img.shields.io/badge/status-complete-111111?style=for-the-badge)](#project-status)
+[![CAD](https://img.shields.io/badge/CAD-4_releases-3f3f46?style=for-the-badge)](#cad-downloads)
+[![Platform](https://img.shields.io/badge/platform-FIRST_Tech_Challenge-6b7280?style=for-the-badge)](https://www.firstinspires.org/robotics/ftc)
+[![License](https://img.shields.io/badge/license-CC_BY_4.0-111111?style=for-the-badge)](LICENSE)
 
 [Watch the videos](#videos) · [Download the CAD](#cad-downloads) · [Read the design story](#design-story) · [View the license](LICENSE)
 
-<img src="assets/images/chassis-built.webp" alt="Completed Simple Swerve chassis" width="900">
-
 </div>
+
+<p align="center">
+  <img src="assets/images/chassis-built.webp" alt="Completed Simple Swerve chassis" width="900">
+</p>
 
 ---
 
