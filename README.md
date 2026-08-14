@@ -4,10 +4,10 @@
 
 ### A compact differential swerve platform for FIRST Tech Challenge robots
 
-[![Status](https://img.shields.io/badge/status-complete-111111?style=for-the-badge)](#project-status)
-[![CAD](https://img.shields.io/badge/CAD-4_releases-3f3f46?style=for-the-badge)](#cad-downloads)
-[![Platform](https://img.shields.io/badge/platform-FIRST_Tech_Challenge-6b7280?style=for-the-badge)](https://www.firstinspires.org/robotics/ftc)
-[![License](https://img.shields.io/badge/license-CC_BY_4.0-111111?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/status-complete-22C55E?style=for-the-badge&labelColor=15803D)](#project-status)
+[![CAD](https://img.shields.io/badge/CAD-4_releases-8B5CF6?style=for-the-badge&labelColor=6D28D9)](#cad-downloads)
+[![Platform](https://img.shields.io/badge/platform-FIRST_Tech_Challenge-00AEEF?style=for-the-badge&labelColor=0369A1)](https://www.firstinspires.org/robotics/ftc)
+[![License](https://img.shields.io/badge/license-CC_BY_4.0-F59E0B?style=for-the-badge&labelColor=B45309)](LICENSE)
 
 [Watch the videos](#videos) · [Download the CAD](#cad-downloads) · [Read the design story](#design-story) · [View the license](LICENSE)
 
