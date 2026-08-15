@@ -4,132 +4,114 @@
 
 ### A compact differential swerve platform for FIRST Tech Challenge robots
 
-<img alt="Status: complete" src="https://img.shields.io/badge/status-complete-22C55E?style=for-the-badge&labelColor=15803D"> <img alt="CAD: 4 releases" src="https://img.shields.io/badge/CAD-4_releases-8B5CF6?style=for-the-badge&labelColor=6D28D9">
-[![Platform](https://img.shields.io/badge/platform-FIRST_Tech_Challenge-00AEEF?style=for-the-badge&labelColor=0369A1)](https://www.firstinspires.org/robotics/ftc)
-<img alt="License: CC BY 4.0" src="https://img.shields.io/badge/license-CC_BY_4.0-F59E0B?style=for-the-badge&labelColor=B45309">
+[![Status](https://img.shields.io/badge/Status-Complete-22c55e?style=flat-square)](#overview)
+[![CAD](https://img.shields.io/badge/CAD-4_Releases-8b5cf6?style=flat-square)](cad/)
+[![Platform](https://img.shields.io/badge/Platform-FIRST_Tech_Challenge-00aeef?style=flat-square&logo=first&logoColor=white)](https://www.firstinspires.org/robotics/ftc)
+[![License](https://img.shields.io/badge/License-CC_BY_4.0-f59e0b?style=flat-square)](LICENSE)
 
-[Watch the videos](#videos) · [Download the CAD](#cad-downloads) · [Read the design story](#design-story) · [View the license](LICENSE)
+<picture>
+  <img src="assets/images/chassis-built.webp" alt="Completed Simple Swerve chassis" width="820" draggable="false">
+</picture>
+
+A modular differential swerve system delivering full omnidirectional kinematics and maximum wheel traction within FTC sizing constraints.
+
+[Project Overview](#overview) | [Build Videos](#videos) | [CAD Downloads](#cad-downloads) | [Design Story](#design-story) | [License & Attribution](#attribution-and-license)
 
 </div>
-
-<p align="center">
-  <img src="assets/images/chassis-built.webp" alt="Completed Simple Swerve chassis" width="900">
-</p>
 
 ---
 
 ## Overview
 
-Simple Swerve is a differential swerve drivetrain developed for the FIRST Tech Challenge. The project began after the 2023–2024 New York–NYC FTC Championship, when an upcoming offseason event created an opportunity to try a drivetrain rarely seen in FTC.
+Simple Swerve is an experimental differential swerve drivetrain developed for the FIRST Tech Challenge (FTC). The project originated after the 2023–2024 New York–NYC FTC Championship to explore differential swerve mechanics—a high-traction, omnidirectional mobility architecture rarely implemented in FTC.
 
-Swerve drive combines omnidirectional movement with the traction of conventional wheels. Unlike Mecanum and omni wheel drivetrains, it does not depend on low traction rollers to move sideways. Each wheel module can point in a chosen direction while continuing to drive, allowing the robot to accelerate, translate, and stop without intentionally giving up wheel contact area.
+Unlike Mecanum or omni-wheel platforms that sacrifice lateral traction to achieve holonomic movement, swerve modules steer standard high-traction wheels dynamically, maintaining continuous ground contact during high-speed translation and vector changes.
+
+| System Specification | Technical Details |
+| --- | --- |
+| Kinematic architecture | Coordinated differential drive/steer (2 motors per module) |
+| Target competition | FIRST Tech Challenge (18" × 18" × 18" sizing envelope) |
+| Motor compatibility | REV UltraPlanetary / REV Core Hex & goBILDA 5202/5203 Yellow Jacket |
+| Internal gearing | 3D-printed gears with embedded M3 × 45 mm support bearings |
+| Chassis configurations | 2-pod differential swerve + 4 corner unpowered omni wheels |
+| Documented releases | V1 Right-Angle, V2 REV Inline, V2 goBILDA, and Full Chassis |
 
 > [!IMPORTANT]
-> **This project is complete.** The complete CAD exports, project explanation, and development images are stored in this repository. No external project page or CAD host is required.
+> **This project is complete.** All native CAD solid models, STEP files, release archives, and technical documentation are self-contained within this repository.
 
 ## Videos
 
-These two demonstrations document the early Simple Swerve prototype and the later FTC sized version. Click either locally hosted preview to watch the full video on YouTube.
+Click either locally hosted preview thumbnail to watch the full project video demonstrations on YouTube:
 
-| First prototype — March 4, 2024 | FTC sized version — March 20, 2024 |
-| :--: | :--: |
+| First Prototype — March 4, 2024 | FTC Sized Version — March 20, 2024 |
+| :---: | :---: |
 | [![Simple Swerve first prototype video](assets/images/video-march-04.webp)](https://www.youtube.com/watch?v=7rm5lNFZ9ew) | [![FTC-sized Simple Swerve video](assets/images/video-march-20.webp)](https://www.youtube.com/watch?v=EeESId9w0uI) |
-| **[Watch “FTC Legal Differential Swerve — Simple Swerve”](https://www.youtube.com/watch?v=7rm5lNFZ9ew)** | **[Watch “FTC Legal Differential Swerve — Simple Swerve”](https://www.youtube.com/watch?v=EeESId9w0uI)** |
+| **[Watch Prototype Video](https://www.youtube.com/watch?v=7rm5lNFZ9ew)** | **[Watch FTC Sized Video](https://www.youtube.com/watch?v=EeESId9w0uI)** |
 
-## CAD downloads
+## CAD Downloads
 
-These ZIP files are the original exported release packages. Each archive contains its STEP files, part folders, and release renders.
+Pre-packaged release archives containing neutral STEP solid models, individual part exports, and render galleries:
 
-| Release | Configuration | Files | Size | Download |
-| :-- | :-- | --: | --: | :--: |
-| **Simple Swerve V1** | FTC sized pod with 90° REV motor packaging | 19 | 62.6 MiB | **[Download ZIP](cad/releases/simple-swerve-v1.zip)** |
-| **Simple Swerve V2 — REV** | Compact pod for two REV motors | 18 | 7.1 MiB | **[Download ZIP](cad/releases/simple-swerve-v2-rev.zip)** |
-| **Simple Swerve V2 Chassis** | Complete V2 two pod chassis assembly | 10 | 236.3 MiB | **[Download ZIP](cad/releases/simple-swerve-v2-chassis.zip)** |
-| **Simple Swerve V2 — goBILDA** | Compact pod for two goBILDA Yellow Jacket 8 mm REX motors | 19 | 36.1 MiB | **[Download ZIP](cad/releases/simple-swerve-v2-gobilda.zip)** |
+| Release | Configuration & Architecture | Part Count | Archive Size | Direct Download |
+| :--- | :--- | :---: | :---: | :---: |
+| **Simple Swerve V1** | FTC-sized module with 90° REV right-angle planetary packaging | 19 | 62.6 MiB | [Download ZIP](cad/releases/simple-swerve-v1.zip) |
+| **Simple Swerve V2 — REV** | Ultra-compact inline module for dual REV planetary motors | 18 | 7.1 MiB | [Download ZIP](cad/releases/simple-swerve-v2-rev.zip) |
+| **Simple Swerve V2 — goBILDA** | Compact inline module for dual goBILDA 8 mm REX motors | 19 | 36.1 MiB | [Download ZIP](cad/releases/simple-swerve-v2-gobilda.zip) |
+| **Simple Swerve V2 Chassis** | Complete master assembly with 2 pods and chassis frame | 10 | 236.3 MiB | [Download ZIP](cad/releases/simple-swerve-v2-chassis.zip) |
 
-Checksums and archive details are available in the **[CAD release index](cad/README.md)**. The release archives use Git LFS because the chassis package exceeds GitHub's standard per file limit.
+> [!NOTE]
+> Checksums (SHA-256) and complete file inventories are documented in the **[CAD Release Index](cad/README.md)**. Release ZIP archives are tracked via Git LFS.
 
-## Design story
+## Design Story
 
-### Why differential swerve?
+### 01 / Differential Kinematics
+In a differential swerve pod:
+$$\omega_{\text{drive}} = \frac{\omega_1 + \omega_2}{2}, \quad \omega_{\text{steer}} = \frac{\omega_1 - \omega_2}{2}$$
+Both motors contribute full power to wheel driving when running in the same direction, and steer the pod when running at differential velocities.
 
-There are two common ways to build a swerve module:
+### 02 / Gearbox Simplification
+Standard differential gearboxes often suffer from complex machining requirements and D-shaft set screw slippage. Simple Swerve eliminates D-bores by embedding standard ball bearings directly within 3D-printed gears, constrained by structural M3 × 45 mm through-bolts.
 
-- **Coaxial swerve** uses one motor to drive the wheel and a separate actuator—often a servo in FTC—to steer it.
-- **Differential swerve** uses two motors together. Their combined motion drives the wheel, while the difference between their motion rotates the module.
+<div align="center">
 
-Coaxial modules are mechanically straightforward but can require many small custom parts and an additional steering actuator for every module. Differential swerve reduces that actuator count, but demands a circular wheel pod, gears that mesh with the pod, and more complicated control software. Without absolute steering feedback, determining the direction of every module becomes especially difficult.
+| Differential Gear Layout | Gearbox Housing Assembly | Assembled Prototype Pod |
+| :---: | :---: | :---: |
+| <img src="assets/images/prototype-motor-layout.png" alt="Prototype differential gearbox layout" width="100%"> | <img src="assets/images/prototype-gearbox.png" alt="Prototype gearbox in its housing" width="100%"> | <img src="assets/images/prototype-detail.png" alt="Physical Simple Swerve prototype" width="100%"> |
 
-Simple Swerve takes the differential approach and focuses on simplifying its most difficult mechanical element: the gearbox.
+</div>
 
-### Simple Swerve prototype
+---
 
-The prototype revisited a differential swerve layout originally explored by FTC Team 11115, Gluten Free. The earlier design used set screws on printed gears along with older shafts and motors. Simple Swerve retained the general motor, wheel, and idler mounting positions while redesigning the gearbox to be less expensive and easier to reproduce.
+### 03 / Mechanical Evolution
 
-Instead of D bore shafts holding the gears straight, the redesigned gearbox uses M3 × 45 mm bolts with bearings embedded directly in the printed gears.
+<div align="center">
 
-<p align="center">
-  <img src="assets/images/prototype-motor-layout.png" alt="Prototype differential gearbox layout" width="49%">
-  <img src="assets/images/prototype-gearbox.png" alt="Prototype gearbox in its housing" width="49%">
-</p>
+| Simple Swerve V1 (Right Angle) | Simple Swerve V2 (REV Inline) | Simple Swerve V2 (goBILDA Inline) |
+| :---: | :---: | :---: |
+| <img src="assets/images/v1-module.png" alt="V1 wheel pod" width="100%"> | <img src="assets/images/v2-rev.png" alt="Simple Swerve V2 REV configuration" width="100%"> | <img src="assets/images/v2-gobilda.png" alt="Simple Swerve V2 goBILDA configuration" width="100%"> |
 
-<p align="center">
-  <img src="assets/images/prototype-detail.png" alt="Physical Simple Swerve prototype" width="340">
-</p>
+</div>
 
-### Simple Swerve V1
+- **V1 Right-Angle:** 90° bevel stages compressed the lateral width to fit within FTC 18" perimeter limits.
+- **V2 Inline:** Removed bevel stages entirely for higher mechanical efficiency, supporting direct REV and goBILDA planetary mounts.
+- **2-Pod Chassis:** Integrates dual differential modules with 4 omni corner outriggers for holonomic agility.
 
-The prototype modules were too long to place side by side in an FTC legal robot. With wiring, the pair measured approximately 18.25 inches, while the robot had to begin within an 18 × 18 × 18 inch volume.
+<div align="center">
 
-V1 rotated the motors 90° by using REV UltraPlanetary right angle gearboxes. This allowed the modules to fit inside an FTC sized chassis while changing only the gearbox frame. The tradeoff was another bevel gear stage, which added mechanical complexity and reduced efficiency.
+| Master Chassis CAD Assembly | Physical Built 2-Pod Chassis |
+| :---: | :---: |
+| <img src="assets/images/chassis-cad.png" alt="Completed differential swerve module" width="100%"> | <img src="assets/images/chassis-built.webp" alt="Built two-pod Simple Swerve chassis" width="100%"> |
 
-<p align="center">
-  <img src="assets/images/v1-internals.png" alt="V1 right-angle motor configuration" width="49%">
-  <img src="assets/images/v1-module.png" alt="V1 wheel pod" width="49%">
-</p>
+</div>
 
-### Simple Swerve chassis
+## Attribution and License
 
-The first chassis used two swerve pods for powered movement and four omni wheels at the corners for stability. Cutouts were added for linear slides so the platform could carry an offseason scoring mechanism. The event was later canceled, and the chassis was never used in competition.
-
-<p align="center">
-  <img src="assets/images/chassis-cad.png" alt="Completed differential swerve module" width="49%">
-  <img src="assets/images/chassis-built.webp" alt="Built two-pod Simple Swerve chassis" width="49%">
-</p>
-
-### Simple Swerve V2
-
-V2 reduced the bill of materials and introduced two configurations. One accepts two REV motors; the other accepts two goBILDA Yellow Jacket 8 mm REX motors. The REV configuration eliminates the UltraPlanetary gearboxes, producing a smaller module while retaining the same internal components.
-
-Only the gearbox casing and the two side, top, and bottom plates changed for the new package.
-
-<p align="center">
-  <img src="assets/images/v2-rev.png" alt="Simple Swerve V2 REV configuration" width="49%">
-  <img src="assets/images/v2-gobilda.png" alt="Simple Swerve V2 goBILDA configuration" width="49%">
-</p>
-
-## Project status
-
-**Simple Swerve is complete.** All four mechanical releases are preserved here as build resources and as a reference for teams exploring compact differential swerve in FTC.
-
-This repository does not claim that the chassis competed or that the design is a drop-in competition solution. Builders should validate dimensions, tolerances, gearing, material choices, motor loads, and current FTC rules before manufacturing or competing with any version.
-
-## Attribution and license
-
-© 2026 Angelo James. The original Simple Swerve designs, renders, photographs, and documentation in this repository are licensed under the **[Creative Commons Attribution 4.0 International License](LICENSE)**.
-
-You may build, modify, and share the design—including commercially—provided that you credit the creator, link to the license, and identify your changes. A suitable credit line is:
-
-> **Simple Swerve by Angelo James — https://github.com/AloeVeraZ/diffy swerve — licensed under CC BY 4.0.**
-
-## Acknowledgments
-
-The prototype was inspired by the differential swerve work of **FTC Team 11115, Gluten Free**. Simple Swerve revisited that concept with updated motors, shafts, printed gearing, and a focus on affordability and reproducibility.
+Original design, models, and documentation © 2026 Angelo James Demetroulakos. Licensed under the **[Creative Commons Attribution 4.0 International License](LICENSE)**.
 
 ---
 
 <div align="center">
 
-*This independent project is not endorsed by FIRST® or by the component manufacturers referenced above.*
+Designed and documented by **[Angelo James Demetroulakos](https://github.com/AloeVeraZ)** · **[Simple Swerve](https://github.com/AloeVeraZ/diffy-swerve)**
 
 </div>
