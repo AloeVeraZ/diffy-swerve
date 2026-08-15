@@ -15,6 +15,7 @@
 
 A modular differential swerve system delivering full omnidirectional kinematics and maximum wheel traction within FTC sizing constraints.
 
+<strong>Quick navigation:</strong><br>
 [Project Overview](#overview) | [Build Videos](#videos) | [CAD Downloads](#cad-downloads) | [Design Story](#design-story) | [License & Attribution](#attribution-and-license)
 
 </div>
@@ -107,11 +108,3 @@ Standard differential gearboxes often suffer from complex machining requirements
 ## Attribution and License
 
 Original design, models, and documentation © 2026 Angelo James Demetroulakos. Licensed under the **[Creative Commons Attribution 4.0 International License](LICENSE)**.
-
----
-
-<div align="center">
-
-Designed and documented by **[Angelo James Demetroulakos](https://github.com/AloeVeraZ)** · **[Simple Swerve](https://github.com/AloeVeraZ/diffy-swerve)**
-
-</div>

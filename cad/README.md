@@ -12,6 +12,7 @@
 
 This directory contains the original exported Simple Swerve release packages. Each ZIP preserves the full folder structure, STEP models, part folders, and release renders.
 
+<strong>Quick navigation:</strong><br>
 [CAD Release Packages](#cad-release-packages) | [Large-File Storage](#large-file-storage) | [Verifying a Download](#verifying-a-download) | [Back to Simple Swerve](../)
 
 </div>
