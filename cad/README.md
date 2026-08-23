@@ -10,7 +10,7 @@
 [![Storage](https://img.shields.io/badge/Storage-Git_LFS-f57c00?style=flat-square)](#large-file-storage)
 [![Parent](https://img.shields.io/badge/Project-Simple_Swerve-00aeef?style=flat-square)](../)
 
-This directory contains the original exported Simple Swerve release packages. Each ZIP preserves the full folder structure, STEP models, part folders, and release renders.
+This folder has the original Simple Swerve release ZIPs with their STEP files, part folders, and renders left intact.
 
 <strong>Quick navigation:</strong><br>
 [CAD Release Packages](#cad-release-packages) | [Large-File Storage](#large-file-storage) | [Verifying a Download](#verifying-a-download) | [Back to Simple Swerve](../)

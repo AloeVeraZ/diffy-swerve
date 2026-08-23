@@ -13,7 +13,7 @@
   <img src="assets/images/chassis-built.webp" alt="Completed Simple Swerve chassis" width="820" draggable="false">
 </picture>
 
-A modular differential swerve system delivering full omnidirectional kinematics and maximum wheel traction within FTC sizing constraints.
+A differential swerve prototype built to keep full wheel traction inside FTC size limits.
 
 <strong>Quick navigation:</strong><br>
 [Project Overview](#overview) | [Build Videos](#videos) | [CAD Downloads](#cad-downloads) | [Design Story](#design-story) | [License & Attribution](#attribution-and-license)
@@ -24,7 +24,7 @@ A modular differential swerve system delivering full omnidirectional kinematics 
 
 ## Overview
 
-Simple Swerve is an experimental differential swerve drivetrain developed for the FIRST Tech Challenge (FTC). The project originated after the 2023–2024 New York–NYC FTC Championship to explore differential swerve mechanics—a high-traction, omnidirectional mobility architecture rarely implemented in FTC.
+I started Simple Swerve after the 2023–2024 New York–NYC FTC Championship because I wanted to try differential swerve in an FTC-sized robot. Two motors work together in each module to drive and steer the wheel without giving up traction.
 
 Unlike Mecanum or omni-wheel platforms that sacrifice lateral traction to achieve holonomic movement, swerve modules steer standard high-traction wheels dynamically, maintaining continuous ground contact during high-speed translation and vector changes.
 
