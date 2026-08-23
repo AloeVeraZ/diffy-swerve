@@ -16,7 +16,7 @@
 A differential swerve prototype built to keep full wheel traction inside FTC size limits.
 
 <strong>Quick navigation:</strong><br>
-[Project Overview](#overview) | [Build Videos](#videos) | [CAD Downloads](#cad-downloads) | [Design Story](#design-story) | [License & Attribution](#attribution-and-license)
+[Project Overview](#overview) | [Build Videos](#videos) | [CAD Downloads](#cad-downloads) | [Design Story](#design-story) | [License](#license)
 
 </div>
 
@@ -105,6 +105,6 @@ Standard differential gearboxes often suffer from complex machining requirements
 
 </div>
 
-## Attribution and License
+## License
 
-Original design, models, and documentation © 2026 Angelo James Demetroulakos. Licensed under the **[Creative Commons Attribution 4.0 International License](LICENSE)**.
+This project is available under the [Creative Commons Attribution 4.0 International License](LICENSE).
