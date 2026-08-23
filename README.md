@@ -60,8 +60,21 @@ Pre-packaged release archives containing neutral STEP solid models, individual p
 | **Simple Swerve V2 — goBILDA** | Compact inline module for dual goBILDA 8 mm REX motors | 19 | 36.1 MiB | [Download ZIP](cad/releases/simple-swerve-v2-gobilda.zip) |
 | **Simple Swerve V2 Chassis** | Complete master assembly with 2 pods and chassis frame | 10 | 236.3 MiB | [Download ZIP](cad/releases/simple-swerve-v2-chassis.zip) |
 
-> [!NOTE]
-> Checksums (SHA-256) and complete file inventories are documented in the **[CAD Release Index](cad/README.md)**. Release ZIP archives are tracked via Git LFS.
+Release ZIP archives are tracked with [Git LFS](https://git-lfs.com/). Install
+Git LFS before cloning, or run `git lfs pull` afterward to download the full
+archives.
+
+### Download verification
+
+| Release archive | SHA-256 |
+| --- | --- |
+| `simple-swerve-v1.zip` | `670D7A0A75E7D8B76EDA5C5638E6ECF536C1E3B5343A666C47ED84F251835F87` |
+| `simple-swerve-v2-rev.zip` | `7D26A8E94AEDA029DE53C344AEC7E561E8EE0A8F3A1BBAC50E038C320C7639DF` |
+| `simple-swerve-v2-gobilda.zip` | `37697DA25928D9287CCCACC1E354E877C28DC800DB270E33E348DB6E679F62C6` |
+| `simple-swerve-v2-chassis.zip` | `4E9C4DFA082C906DAC3B2C14A86D915636E1DBEFA3DBF1BBE190790F8319BBB1` |
+
+Verify a download with `Get-FileHash -Algorithm SHA256` on Windows or
+`sha256sum` on Linux and macOS.
 
 ## Design Story
 
