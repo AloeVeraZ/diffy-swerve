@@ -90,7 +90,7 @@ Standard differential gearboxes often suffer from complex machining requirements
 
 | Differential Gear Layout | Gearbox Housing Assembly | Assembled Prototype Pod |
 | :---: | :---: | :---: |
-| <img src="assets/images/prototype-motor-layout.png" alt="Prototype differential gearbox layout" width="100%"> | <img src="assets/images/prototype-gearbox.png" alt="Prototype gearbox in its housing" width="100%"> | <img src="assets/images/prototype-detail.png" alt="Physical Simple Swerve prototype" width="100%"> |
+| <picture><img src="assets/images/prototype-motor-layout.png" alt="Prototype differential gearbox layout" width="100%"></picture> | <picture><img src="assets/images/prototype-gearbox.png" alt="Prototype gearbox in its housing" width="100%"></picture> | <picture><img src="assets/images/prototype-detail.png" alt="Physical Simple Swerve prototype" width="100%"></picture> |
 
 </div>
 
@@ -102,7 +102,7 @@ Standard differential gearboxes often suffer from complex machining requirements
 
 | Simple Swerve V1 (Right Angle) | Simple Swerve V2 (REV Inline) | Simple Swerve V2 (goBILDA Inline) |
 | :---: | :---: | :---: |
-| <img src="assets/images/v1-module.png" alt="V1 wheel pod" width="100%"> | <img src="assets/images/v2-rev.png" alt="Simple Swerve V2 REV configuration" width="100%"> | <img src="assets/images/v2-gobilda.png" alt="Simple Swerve V2 goBILDA configuration" width="100%"> |
+| <picture><img src="assets/images/v1-module.png" alt="V1 wheel pod" width="100%"></picture> | <picture><img src="assets/images/v2-rev.png" alt="Simple Swerve V2 REV configuration" width="100%"></picture> | <picture><img src="assets/images/v2-gobilda.png" alt="Simple Swerve V2 goBILDA configuration" width="100%"></picture> |
 
 </div>
 
@@ -114,7 +114,7 @@ Standard differential gearboxes often suffer from complex machining requirements
 
 | Master Chassis CAD Assembly | Physical Built 2-Pod Chassis |
 | :---: | :---: |
-| <img src="assets/images/chassis-cad.png" alt="Completed differential swerve module" width="100%"> | <img src="assets/images/chassis-built.webp" alt="Built two-pod Simple Swerve chassis" width="100%"> |
+| <picture><img src="assets/images/chassis-cad.png" alt="Completed differential swerve module" width="100%"></picture> | <picture><img src="assets/images/chassis-built.webp" alt="Built two-pod Simple Swerve chassis" width="100%"></picture> |
 
 </div>
 
